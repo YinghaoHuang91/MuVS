@@ -26,6 +26,8 @@ util.py: experimental settings and data loading methods.
 ```
 
 #### Data
+Image data, DCT basis, SMPL model and pose prior is stored here. If you want to try your own data, you need to prepare it in the way shown in folder HEVA_Validate.
+
 
 ### How to run
 
