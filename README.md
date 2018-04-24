@@ -26,7 +26,13 @@ util.py: experimental settings and data loading methods.
 ```
 
 #### Data
-Image data, DCT basis, SMPL model and pose prior is stored here. If you want to try your own data, you need to prepare it in the way shown in folder HEVA_Validate.
+Image data, DCT basis, SMPL model and pose prior is stored here. If you want to try your own data, you need to prepare it in the way shown in folder *HEVA_Validate*:
+```
+1, One folder for each view.
+2, For each view, images are in *Image* subfolder.
+3, 2D pose information in *Pose_2D subfolder*.
+4, Create subfolders *Res_1* and *Res_2* to save the results.
+```
 
 
 ### How to run
