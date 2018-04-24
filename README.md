@@ -19,12 +19,11 @@ pip install tensorflow-gpu
 ### Folder structure
 #### Code_TF
 This is where the code resides. A brief summary of what each file does in the following:
-
+```
 camera.py: perspective pinhole camera model, which projects 3D points into image space.
-
 smpl_batch.py: Tensorflow verion of SMPL model, which takes in SMPL paramters and yields 3D SMPL joints.
-
 util.py: experimental settings and data loading methods.
+```
 
 #### Data
 
