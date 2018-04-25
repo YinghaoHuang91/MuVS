@@ -1,7 +1,7 @@
 # MuVS
 This is the demo code for the MuVS (Multi-view SMPLify) method presented in the paper:
 
-[Yinghao Huang and Federica Bogo and Christoph Lassner and Angjoo Kanazawa and Peter V. Gehler and Javier Romero and Ijaz Akhter and Michael J. Black, Towards Accurate Marker-less Human Shape and Pose Estimation over Time, International Conference on 3D Vision (3DV) 2017](https://ps.is.tuebingen.mpg.de/publications/muvs-3dv-2017).
+[Yinghao Huang, Federica Bogo, Christoph Lassner, Angjoo Kanazawa, Peter V. Gehler, Javier Romero, Ijaz Akhter and Michael J. Black, Towards Accurate Marker-less Human Shape and Pose Estimation over Time, International Conference on 3D Vision (3DV) 2017](https://ps.is.tuebingen.mpg.de/publications/muvs-3dv-2017).
 
 
 ### Dependencies
