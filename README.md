@@ -6,7 +6,7 @@ This is the demo code for the MuVS (Multi-view SMPLify) method presented in the 
 
 ### Dependencies
 
-You need to install the packages used like shown below:
+You need to install the the following packages via pip like shown below:
 ```
 pip install numpy
 pip install pickle
@@ -16,7 +16,7 @@ pip install tensorflow-gpu
 
 And please install [MeshLite](https://github.com/MPI-IS/meshlite) as instructed there, which is used to save Mesh data.
 
-[Deepcut](https://github.com/eldar/deepcut-cnn) and one [human-specific segmentation](https://github.com/classner/up) method are also used (Not get used now, since no differentialbe render in Tensorflow availabe). You need to install them from the respecitve project links.
+[Deepcut](https://github.com/eldar/deepcut-cnn) and one [human-specific segmentation](https://github.com/classner/up) method are also used (Not used now, since no differentialbe render in Tensorflow availabe). You need to install them from the respecitve project links.
 
 ### Folder structure
 #### Code_TF
