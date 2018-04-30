@@ -98,7 +98,7 @@ def wh(img_path):
 	model_f = model_f.astype(int).tolist()
 	pose_final, betas_final, trans_final = sess.run([tf.concat([param_rot, param_pose], axis=1), param_shape, param_trans])
 
-	from psbody.mesh import Mesh
+	from psbody.meshlite import Mesh
 	m = Mesh(v=np.squeeze(v_final), f=model_f)
 	out_ply_path = img_path.replace('Image', 'Res_1')
 	extension = os.path.splitext(out_ply_path)[1]
