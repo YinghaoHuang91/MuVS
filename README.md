@@ -39,7 +39,7 @@ Image data, DCT basis, SMPL model and pose prior is stored here. If you want to 
 
 ### How to run
 
-Firstly you have to organize your data like described in the previous setction. Then you need to run Deepercut and Segmentation code for all the images, and place them in the right folder. After that you can use these commands to run MuVS from the main folder:
+Firstly you have to organize your data like described in the previous setction. Then you need to run Deepercut for all the images, and place them in the right folder. After that you can use these commands to run MuVS from the main folder:
 
 ```
 ./gen_run_jobs_1.sh # This runs per-frame fitting for all the frames
