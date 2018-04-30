@@ -129,7 +129,7 @@ def main(img_files):
 	model_f = model_f.astype(int).tolist()
 
 	for fid in range(0, util.BATCH_FRAME_NUM / 2):
-		from psbody.mesh import Mesh
+		from psbody.meshlite import Mesh
 		m = Mesh(v=vs_final[fid], f=model_f)
 		out_ply_path = img_files[fid].replace('Image', 'Res_2')
 		extension = os.path.splitext(out_ply_path)[1]
