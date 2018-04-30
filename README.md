@@ -16,7 +16,7 @@ pip install tensorflow-gpu
 
 And please install [MeshLite](https://github.com/MPI-IS/meshlite) as instructed there, which is used to save Mesh data.
 
-[Deepcut](https://github.com/eldar/deepcut-cnn) and one [human-specific segmentation](https://github.com/classner/up) method are also used (Not used now, since no differentialbe render in Tensorflow availabe). You need to install them from the respecitve project links.
+[Deepcut](https://github.com/eldar/deepcut-cnn) and one [human-specific segmentation](https://github.com/classner/up) method are also used (Not used now, since no differentialbe render in Tensorflow availabe). You need to install them from the project links.
 
 ### Folder structure
 #### Code_TF
