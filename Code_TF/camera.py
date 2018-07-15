@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 import cv2
-from psbody.mesh import Mesh
+from psbody.meshlite import Mesh
 
 class Perspective_Camera():
 	# Input is in numpy array format
