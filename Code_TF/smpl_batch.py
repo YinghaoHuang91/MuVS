@@ -2,8 +2,8 @@ import tensorflow as tf
 import numpy as np
 import util
 import pickle as pkl
-from psbody.mesh import Mesh
-from psbody.smpl import load_model
+from psbody.meshlite import Mesh
+from smpl.serialization import load_model
 
 class SMPL:
 	# Read model paramters

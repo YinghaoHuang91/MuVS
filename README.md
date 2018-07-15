@@ -8,13 +8,16 @@ This is the demo code for the MuVS (Multi-view SMPLify) method presented in the 
 
 You need to install the the following packages via pip like shown below:
 ```
-pip install numpy
-pip install pickle
-pip install scipy
-pip install tensorflow-gpu
+pip install --upgrade numpy scipy tensorflow-gpu matplotlib
+pip install git+https://github.com/mattloper/chumpy.git@refs/pull/18/head # required since the main branch is broken since pip 10
+pip install https://github.com/MPI-IS/meshlite/raw/master/download/psbody_meshlite-0.1-cp27-cp27mu-linux_x86_64.whl # meshlite
 ```
+Additionally, smpl needs to be downloaed from `` and symlinked 
 
-And please install [MeshLite](https://github.com/MPI-IS/meshlite) as instructed there, which is used to save Mesh data.
+```
+ln -s <smpl dir>/smpl_webuser TF_Code/smpl
+
+```
 
 [Deepcut](https://github.com/eldar/deepcut-cnn) and one [human-specific segmentation](https://github.com/classner/up) method are also used (Not used now, since no differentialbe render in Tensorflow availabe). You need to install them from the project links.
 
