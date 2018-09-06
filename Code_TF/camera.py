@@ -42,11 +42,11 @@ class Perspective_Camera():
 
 if __name__ == '__main__':
 	m = Mesh()
-	m.load_from_ply('/ps/scratch/yhuang/ESMPLify_4_12_Public/Data/HEVA_Validate/S1_Box_1_C1/Res_1/frame0010.ply')
+	m.load_from_ply('~/Data/HEVA_Validate/S1_Box_1_C1/Res_1/frame0010.ply')
 	import cv2
-	img = cv2.imread('/ps/scratch/yhuang/ESMPLify_4_12_Public/Data/HEVA_Validate/S1_Box_1_C1/Image/frame0010.png')
+	img = cv2.imread('~/HEVA_Validate/S1_Box_1_C1/Image/frame0010.png')
 	import scipy.io as sio
-	cam_data = sio.loadmat('/ps/scratch/yhuang/ESMPLify_4_12_Public/Data/HEVA_Validate/S1_Box_1_C1/GT/camera.mat', squeeze_me=True, struct_as_record=False)
+	cam_data = sio.loadmat('~/Data/HEVA_Validate/S1_Box_1_C1/GT/camera.mat', squeeze_me=True, struct_as_record=False)
 	cam_data = cam_data['camera']
 	cam = Perspective_Camera(cam_data.focal_length[0], cam_data.focal_length[1], cam_data.principal_pt[0], cam_data.principal_pt[1],
 					cam_data.t / 1000.0, cam_data.R_angles)
