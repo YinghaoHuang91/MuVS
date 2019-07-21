@@ -124,7 +124,7 @@ class SMPL:
                                 + tf.multiply(T[:, :,3,:], tf.expand_dims(rest_shape_h[:, 3,:], axis=1)))
                 v = tf.transpose(v, [2, 0, 1])
                 v = v[:, :, :3]
-                v += tf.expand_dims(trans, 1)
+                #v += tf.expand_dims(trans, 1)
 
 		result = {'A_global': A_global, 'v':v}
 		return result
